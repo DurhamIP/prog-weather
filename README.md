@@ -20,7 +20,7 @@ public class Station implements StationInterface{
 }
 ```
 
-While you are writing your classes you will get an compilation error `... is not abstract and does not override abstrect method ...`. This happens when you have not implemented all of the methods in the interface definition. One way round this is to provide 'stub' method definitions for each of the methods in the interface, with only a return statement if required e.g. in _Station_
+While you are writing your classes you will get an compilation error `... is not abstract and does not override abstract method ...`. This happens when you have not implemented all of the methods in the interface definition. One way round this is to provide 'stub' method definitions for each of the methods in the interface, with only a return statement if required e.g. in _Station_
 
 ```
 public List<ObservationInterface> getObservations(){
