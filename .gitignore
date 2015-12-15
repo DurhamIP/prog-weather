@@ -1,0 +1,10 @@
+*.class
+*.ctxt
+*~
+package.bluej
+
+.DS_Store
+MetOffice.java
+Observation.java
+Position.java
+Station.java
